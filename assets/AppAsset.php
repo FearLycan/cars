@@ -20,12 +20,15 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'js/owl.carousel/dist/assets/owl.carousel.min.css',
+        'js/owl.carousel/dist/assets/owl.theme.default.min.css',
         'css/style.css',
         'css/font-awesome.min.css',
         'css/site.css',
     ];
     public $js = [
         'js/main.js',
+        'js/owl.carousel/dist/owl.carousel.min.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
