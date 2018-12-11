@@ -206,7 +206,7 @@ ul.pagination {
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .navbar-brand {
         font-size: 11px !important;
     }
@@ -376,5 +376,27 @@ ul.pagination {
 
 .col-centered {
     float: none;
+    margin: 0 auto;
+}
+
+.b-margin {
+    margin-bottom: 10px;
+}
+
+.offer-show {
+    display: block;
+}
+
+.offer-hide {
+    display: none;
+}
+
+.txt, .img {
+    float: left;
+    width: 50%;
+}
+
+.img > img {
+    display: block;
     margin: 0 auto;
 }

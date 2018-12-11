@@ -11,6 +11,471 @@ $this->title = Yii::$app->name;
 <div class="site-index">
 
     <div class="row">
+        <section class="module" style="padding-bottom: 0; padding-top: 0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <h2 class="module-title font-alt">CZĘŚCI I AKCESORIA</h2>
+                        <div class="module-subtitle font-serif">
+
+                            <p>
+                                Nasza firma prowadzi sprzedaż części głównie używanych jak również nowych do różnych
+                                modeli
+                                samochodów i motocykli. Asortyment posiadanych części sięga kilku tysięcy egzemplarzy.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <hr class="divider-w pt-20">
+                    </div>
+                </div>
+                <div class="row multi-columns-row" id="offer-button">
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta1">
+                            <div>Układy mechaniczne</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta2">
+                            <div>Układy wydechowe</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta3">
+                            <div>Układy hamulcowe</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta4">
+                            <div>Chłodnice</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta5">
+                            <div>Układy klimatyzacji</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta6">
+                            <div>Blacharka</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta7">
+                            <div>Zawieszenia</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-4 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta8">
+                            <div>Części elektryczne i elektroniczne</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta9">
+                            <div>Oświetlenie</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta10">
+                            <div>Układy AIR BAG</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta11">
+                            <div>Szyby</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta12">
+                            <div>Elementy plastikowe</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta13">
+                            <div>Akcesoria tuningowe</div>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-xs-12 b-margin">
+                        <button class="btn btn-b btn-round col-md-12 col-sm-12 col-xs-12" data-id="#oferta14">
+                            <div>Części eksploatacyjne</div>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="row offers">
+                    <div id="oferta1"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-show">
+                        <h2>Układy mechaniczne</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>skrzynie biegów manualne i automatyczne</li>
+                                <li>sprzęgła: pompy, tarcze, dociski, łożyska i wysprzęgliki, koła zamachowe</li>
+                                <li>półosie z przegubami</li>
+                                <li>wały napędowe</li>
+                                <li>przekładnie kierownicze zwykłe oraz ze wspomaganiem hydraulicznym i elektrycznym
+                                </li>
+                                <li>rozruszniki</li>
+                                <li>alternatory</li>
+                                <li>pompy ABS oraz Servo</li>
+                                <li>aparaty zapłonowe</li>
+                                <li>silniki z kompletną dokumentacją</li>
+                                <li>kolektory ssące i wydechowe</li>
+                                <li>wały korbowe</li>
+                                <li>korbowody</li>
+                                <li>tłoki</li>
+                                <li>pompy wodne oraz olejowe</li>
+                                <li>łapy oraz poduszki mocujące silnik</li>
+                                <li>głowice</li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <img class="thumbnail"
+                                 src="<?= Url::to('@web/images/parts/parts_uklady_mechaniczne.jpg') ?>"
+                                 alt="parts_uklady_mechaniczne.jpg">
+                            <img class="thumbnail"
+                                 src="<?= Url::to('@web/images/parts/parts_uklady_mechaniczne_2.jpg') ?>"
+                                 alt="parts_uklady_mechaniczne_2.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta2"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Układy wydechowe</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>kolektory wydechowe</li>
+                                <li>tłumiki</li>
+                                <li>katalizatory</li>
+                                <li>dwururki wydechowe</li>
+                                <li>sondy LAMBDA</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_uklady_wydechowe.jpg') ?>"
+                                              alt="parts_uklady_wydechowe.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta3"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Układy hamulcowe</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>tarcze</li>
+                                <li>klocki</li>
+                                <li>zaciski</li>
+                                <li>bębny</li>
+                                <li>cylinderki</li>
+                                <li>części do naprawy zacisków</li>
+                                <li>pompy hamulcowe + serwo</li>
+                                <li>przewody hamulcowe</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail" src="<?= Url::to('@web/images/parts/hamulce.jpg') ?>"
+                                              alt="hamulce.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta4"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Chłodnice</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>do silników benzynowych oraz diesla</li>
+                                <li>do skrzyń manualnych i automatycznych</li>
+                                <li>wentylatory</li>
+                                <li>nagrzewnice</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_chlodnice.jpg') ?>"
+                                              alt="parts_chlodnice.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta5"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Układy klimatyzacji</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>sprężarki</li>
+                                <li>chłodnice</li>
+                                <li>parowniki</li>
+                                <li>wentylatory</li>
+                                <li>przewody ciśnieniowe</li>
+                                <li>wiązki elektryczne</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_uklady_klimatyzacji.jpg') ?>"
+                                              alt="parts_uklady_klimatyzacji.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta6"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Blacharka</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>zderzaki</li>
+                                <li>maski</li>
+                                <li>drążki reakcyjne przednie oraz tylne</li>
+                                <li>błotniki przednie i tylne</li>
+                                <li>wzmocnienia przednie i tylne</li>
+                                <li>belki zderzaków</li>
+                                <li>podłużnice przednie oraz tylne</li>
+                                <li>dachy</li>
+                                <li>progi</li>
+                                <li>słupki</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_blacharka.jpg') ?>"
+                                              alt="parts_blacharka.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta7"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Zawieszenia</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>zwrotnice przednie oraz tylne</li>
+                                <li>wahacze przednie oraz tylne</li>
+                                <li>amortyzatory</li>
+                                <li>sprężyny</li>
+                                <li>drążki reakcyjne przednie oraz tylne</li>
+                                <li>trawersa, kołyska - przód oraz tył</li>
+                                <li>osie skrętne</li>
+                                <li>łączniki stabilizatora</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_zawieszenia.jpg') ?>"
+                                              alt="parts_zawieszenia.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta8"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Części elektryczne i elektroniczne</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>komputery</li>
+                                <li>układy bezpieczników</li>
+                                <li>przekaźniki</li>
+                                <li>wentylatory</li>
+                                <li>różne czujniki</li>
+                                <li>zespolone przełączniki pod kierownice</li>
+                                <li>podnośniki szyb</li>
+                                <li>prędkościomierze</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_elektronika.jpg') ?>"
+                                              alt="parts_elektronika.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta9"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Oświetlenie</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>reflektory przednie ksenonowe oraz zwykłe</li>
+                                <li>halogeny</li>
+                                <li>kierunkowskazy przednie i boczne</li>
+                                <li>elementy oświetlenia wnętrza</li>
+                                <li>lampy tylne</li>
+                                <li>lampy pozycyjne</li>
+                                <li>LEDy</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_oswietlenie.jpg') ?>"
+                                              alt="parts_oswietlenie.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta10"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Układy AIR BAG</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>poduszki kierowcy, pasażera oraz boczne</li>
+                                <li>kurtyny powietrzne</li>
+                                <li>deski rozdzielcze z poduszką lub bez</li>
+                                <li>sensory komputerowe</li>
+                                <li>czujniki zderzenia</li>
+                                <li>wiązki elektryczne</li>
+                                <li>taśmy pod kierownice</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_uklady_airbag.jpg') ?>"
+                                              alt="parts_uklady_airbag.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta11"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Szyby</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>przednie podgrzewane oraz z czujnikami deszczu</li>
+                                <li>szklane szyberdachy</li>
+                                <li>boczne</li>
+                                <li>tylne</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_szyby.jpg') ?>"
+                                              alt="parts_szyby.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta12"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Elementy plastikowe</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>zderzaki przednie oraz tylne</li>
+                                <li>listwy boczne na progi oraz drzwi</li>
+                                <li>półki tylne</li>
+                                <li>kierownice</li>
+                                <li>filtry powietrza</li>
+                                <li>zbiorniki wspomagania, wyrównawcze i spryskiwaczy</li>
+                                <li>lusterka boczne manualne, elektryczne oraz podgrzewane</li>
+                                <li>osłony silnika</li>
+                                <li>nadkola</li>
+                                <li>deski rozdzielcze</li>
+                                <li>nagrzewnice wraz z obudową</li>
+                                <li>atrapy przednie oraz blendy tylne</li>
+                                <li>siedzenia</li>
+                                <li>kokpity środkowe</li>
+                                <li>tapicerki</li>
+                                <li>podsufitki</li>
+                                <li>rezonatory</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_elementy_plastikowe.jpg') ?>"
+                                              alt="parts_elementy_plastikowe.jpg">
+                            <img class="thumbnail"
+                                 src="<?= Url::to('@web/images/parts/parts_elementy_plastikowe_2.jpg') ?>"
+                                 alt="parts_elementy_plastikowe_2.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta13"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Akcesoria tuningowe</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>tuningowe układy dolotowe</li>
+                                <li>tuningowe oświetlenie</li>
+                                <li>swapy silnikowe oraz hamulcowe</li>
+                                <li>sportowe kierownice</li>
+                                <li>zestawy xenonów</li>
+                                <li>alufelgi</li>
+                                <li>rozpórki</li>
+                                <li>gałki zmiany biegów</li>
+                                <li>ozdobne nakrętki kół</li>
+                                <li>ospoilerowanie</li>
+                                <li>układy wydechowe</li>
+                                <li>liczniki itd.</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_akcesoria_tuningowe.jpg') ?>"
+                                              alt="parts_akcesoria_tuningowe.jpg">
+                            <img class="thumbnail"
+                                 src="<?= Url::to('@web/images/parts/parts_akcesoria_tuningowe_2.jpg') ?>"
+                                 alt="parts_akcesoria_tuningowe_2.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="oferta14"
+                         class="tabcontent col-md-8 col-lg-8 col-xs-12 col-lg-offset-2 col-md-offset-2 offer-hide">
+                        <h2>Części eksploatacyjne</h2>
+                        <div class="txt">
+                            <ul>
+                                <li>tarcze</li>
+                                <li>klocki hamulcowe</li>
+                                <li>oleje - również oryginalne Hondy</li>
+                                <li>filtry</li>
+                                <li>akumulatory</li>
+                                <li>łożyska</li>
+                                <li>rozrządy</li>
+                                <li>sprzęgła</li>
+                                <li>przeguby</li>
+                                <li>sworznie</li>
+                                <li>termostaty</li>
+                                <li>pompy wody</li>
+                                <li>paski</li>
+                                <li>kable zapłonowe</li>
+                                <li>płyny eksploatacyjne</li>
+                                <li>łączniki</li>
+                                <li>uszczelki</li>
+                            </ul>
+                        </div>
+                        <div class="img"><img class="thumbnail"
+                                              src="<?= Url::to('@web/images/parts/parts_czesci_eksploat.jpg') ?>"
+                                              alt="parts_czesci_eksploat.jpg">
+                            <img class="thumbnail" src="<?= Url::to('@web/images/parts/parts_czesci_eksploat_2.jpg') ?>"
+                                 alt="parts_czesci_eksploat_2.jpg">
+
+                            <div class="galleryclear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="row">
         <section class="module request-cta">
             <div class="container" style="border: 1px solid; padding: 20px 20px 10px 20px;">
                 <div class="row">
@@ -325,3 +790,22 @@ $this->title = Yii::$app->name;
 
 
 </div>
+
+<?php $this->beginBlock('script') ?>
+<script>
+    $("#offer-button").on("click", "button", function () {
+        var id = $(this).attr('data-id');
+        var $offers = $("div.offers");
+
+        $offers.find('.offer-show').removeClass('offer-show').addClass('offer-hide');
+        $offers.find(id).removeClass('offer-hide').addClass('offer-show');
+
+        if ($(window).width() < 990) {
+            $('html, body').animate({
+                scrollTop: ($(id).offset().top) - 30
+            }, 1000);
+        }
+
+    });
+</script>
+<?php $this->endBlock(); ?>
