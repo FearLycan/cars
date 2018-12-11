@@ -11,13 +11,10 @@ $this->title = Yii::$app->name;
 <div class="site-index">
 
     <div class="row">
-        <section class="module" style="padding-top: 0;">
-            <div class="col-md-12">
-                <hr>
-            </div>
-            <div class="col-md-5">
+        <section class="module request-cta">
+            <div class="container" style="border: 1px solid; padding: 20px 20px 10px 20px;">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-3 col-md-3 col-xs-12 m-center">
                         <h4 class="font-alt">Dane kontaktowe</h4>
 
                         <p>
@@ -29,39 +26,36 @@ $this->title = Yii::$app->name;
 
                         </p>
                     </div>
-                    <div class="col-md-6">
-                        <h4 class="font-alt">Godziny pracy</h4><br>
-                        <ul class="list-unstyled">
-                            <li>PONIEDZIAŁEK – PIĄTEK <strong>8:00 – 18:00</strong></li>
-                            <li>SOBOTA <strong>9:00 – 13:00</strong></li>
-                        </ul>
+                    <div class="col-sm-9 col-md-9 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12 m-center">
+                            <h4 class="font-alt">Godziny pracy</h4><br>
+                            <ul class="list-unstyled">
+                                <li>PONIEDZIAŁEK – PIĄTEK <strong>8:00 – 18:00</strong></li>
+                                <li>SOBOTA <strong>9:00 – 13:00</strong></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="row">
+                                <div class="col-md-6 text-center">
+                                    <a href="<?= Url::to(['/kontakt']) ?>" class="btn btn-border-d btn-round m-margin">
+                                        NAPISZ DO NAS
+                                    </a>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <button class="btn btn-border-d btn-round">ZADZWOŃ: 790-888-982</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="col-md-2">
-
-            </div>
-            <div class="col-md-5">
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <a href="<?= Url::to(['/kontakt']) ?>" class="btn btn-border-d btn-round">
-                            NAPISZ DO NAS
-                        </a>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <button class="btn btn-border-d btn-round">ZADZWOŃ: 790-888-982</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <hr>
             </div>
         </section>
+
+
     </div>
 
     <div class="row">
-        <section class="module" id="news" style="padding-top: 0;">
+        <section class="module lola" id="news" style="padding-top: 0;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3"><h2 class="module-title font-alt">Nasze usługi</h2>
@@ -240,38 +234,30 @@ $this->title = Yii::$app->name;
         <?= $this->render('_my') ?>
 
         <section class="module pt-0 pb-0" id="contact">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <h2 class="module-title font-alt">SZYBKI KONTAKT</h2>
-                </div>
-                <div class="col-md-12">
-                    <hr class="divider-w pt-20">
-                </div>
-            </div>
-            <div class="row">
-                <?php Pjax::begin(['enablePushState' => false]); ?>
-
-                <?php if ($success): ?>
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-
-                        <div class="ajax-response font-alt" id="contactFormResponse">
-                            <div class="alert alert-success alert-dismissible" role="alert">
-                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
-                                            aria-hidden="true">&times;</span></button>
-                                Twoja wiadomość została wysłana, dziękujemy!
-                            </div>
-                        </div>
-
-                    </div>
-                <?php endif; ?>
-
+            <div class="row position-relative m-0">
                 <div class="col-xs-12 col-md-6">
-                    <div class="row finance-image-content" style="padding: 21px 0;">
+                    <?php Pjax::begin(['enablePushState' => false]); ?>
+                    <div class="row finance-image-content" style="padding: 15px 0px;">
                         <div class="col-md-10 col-md-offset-1">
+
+                            <?php if ($success): ?>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+
+                                    <div class="ajax-response font-alt" id="contactFormResponse">
+                                        <div class="alert alert-success alert-dismissible" role="alert">
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                                        aria-hidden="true">&times;</span></button>
+                                            Twoja wiadomość została wysłana, dziękujemy!
+                                        </div>
+                                    </div>
+
+                                </div>
+                            <?php endif; ?>
+
+
                             <h2 class="module-title font-alt align-left">
                                 Napisz do Nas
                             </h2>
-
                             <?php $form = ActiveForm::begin([
                                 'options' => ['data' => ['pjax' => true]],
                             ]) ?>
@@ -288,15 +274,19 @@ $this->title = Yii::$app->name;
                             </div>
                             <?php ActiveForm::end() ?>
                         </div>
+                        <?php Pjax::end(); ?>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    <img src="<?= \yii\helpers\Url::to('@web/images/rewers.jpg') ?>">
+                <div class="col-xs-12 col-md-6 col-md-offset-6 side-image p-0">
+                    <section id="map-section">
+                        <img src="<?= \yii\helpers\Url::to('@web/images/rewers.jpg') ?>">
+                    </section>
                 </div>
-                <?php Pjax::end(); ?>
             </div>
         </section>
-        <section class="module" style="padding-bottom: 0;">
+
+
+        <section class="module lola" style="padding-bottom: 0;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">

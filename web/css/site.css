@@ -196,6 +196,20 @@ ul.pagination {
     .grid__gutter-sizer {
         width: 2%;
     }
+
+    .m-margin {
+        margin-bottom: 10px;
+    }
+
+    .m-center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px){
+    .navbar-brand {
+        font-size: 11px !important;
+    }
 }
 
 @media (max-width: 429px) {
@@ -206,6 +220,18 @@ ul.pagination {
 
     .grid__gutter-sizer {
         width: 2%;
+    }
+
+    .lola {
+        padding-top: 20px !important;
+    }
+
+    .m-margin {
+        margin-bottom: 10px;
+    }
+
+    .m-center {
+        text-align: center;
     }
 }
 

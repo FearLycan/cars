@@ -120,7 +120,7 @@ AppAsset::register($this);
     <section class="module-small">
         <div class="container">
             <div class="row client">
-                <div class="owl-carousel text-center" data-items="6" data-pagination="false"
+                <div class="owl-carousel text-center" data-pagination="false"
                      data-navigation="false">
                     <div class="owl-item">
                         <div class="col-sm-12">

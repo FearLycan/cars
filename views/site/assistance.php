@@ -49,7 +49,7 @@ $this->title = 'Pomoc drogowa' . ' - ' . Yii::$app->name;
 
                     <div class="row">
                         <div class="col-md-6 text-center">
-                            <a href="<?= Url::to(['/kontakt']) ?>" class="btn btn-border-d btn-round">
+                            <a href="<?= Url::to(['/kontakt']) ?>" class="btn btn-border-d btn-round m-margin">
                                NAPISZ DO NAS
                             </a>
                         </div>
@@ -63,6 +63,9 @@ $this->title = 'Pomoc drogowa' . ' - ' . Yii::$app->name;
                     </div>
 
                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <img src="<?= Url::to('@web/images/rewers.jpg') ?>" alt="Pomoc drogowa Mapa">
+                        </div>
                         <div class="col-xs-6 col-sm-6 col-md-6">
                             <img src="<?= Url::to('@web/images/laweta-2.jpg') ?>" alt="Pomoc drogowa">
                         </div>

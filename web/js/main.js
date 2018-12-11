@@ -175,11 +175,11 @@
         $('.owl-carousel').each(function(i) {
 
             // Check items number
-            if ($(this).data('items') > 0) {
-                items = $(this).data('items');
-            } else {
-                items = 4;
-            }
+            // if ($(this).data('items') > 0) {
+            //     items = $(this).data('items');
+            // } else {
+            //     items = 4;
+            // }
 
             // Check pagination true/false
             if (($(this).data('pagination') > 0) && ($(this).data('pagination') === true)) {
@@ -202,7 +202,17 @@
                 dots: pagination,
                 loop: true,
                 dotsSpeed: 400,
-                items: items,
+                responsive:{
+                    0:{
+                        items:3
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:6
+                    }
+                },
                 navSpeed: 300,
                 autoplay: 2000
             });

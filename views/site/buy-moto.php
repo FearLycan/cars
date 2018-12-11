@@ -53,7 +53,7 @@ $this->title = 'Skup uszkodzonych motocykli' . ' - ' . Yii::$app->name;
 
                     <div class="row">
                         <div class="col-md-6 text-center">
-                            <a href="<?= Url::to(['/kontakt']) ?>" class="btn btn-border-d btn-round">
+                            <a href="<?= Url::to(['/kontakt']) ?>" class="btn btn-border-d btn-round m-margin">
                                 Wyślij zapytanie sprzedażowe
                             </a>
                         </div>
