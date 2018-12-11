@@ -24,12 +24,26 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<?= Yii::$app->params['meta-description'] ?>" />
+    <meta name="keywords" content="<?= Yii::$app->params['meta-keywords'] ?>" />
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
     <?= Html::csrfMetaTags() ?>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="<?= Yii::$app->request->absoluteUrl ?>"/>
+    <meta name="twitter:title" content="<?= Html::encode($this->title) ?>"/>
+    <meta name="twitter:description" content="<?= Yii::$app->params['meta-description'] ?>"/>
+    <meta name="twitter:image" content="<?= Url::to('@web/images/rewers.jpg', true) ?>"/>
+
+    <meta property="og:title" content="<?= Html::encode($this->title) ?>"/>
+    <meta property="og:description" content="<?= Yii::$app->params['meta-description'] ?>"/>
+    <meta property="og:url" content="<?= Yii::$app->request->absoluteUrl ?>"/>
+    <meta property="og:image" content="<?= Url::to('@web/images/rewers.jpg', true) ?>"/>
+
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
