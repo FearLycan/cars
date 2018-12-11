@@ -37,12 +37,13 @@ AppAsset::register($this);
     <meta name="twitter:site" content="<?= Yii::$app->request->absoluteUrl ?>"/>
     <meta name="twitter:title" content="<?= Html::encode($this->title) ?>"/>
     <meta name="twitter:description" content="<?= Yii::$app->params['meta-description'] ?>"/>
-    <meta name="twitter:image" content="<?= Url::to('@web/images/rewers.jpg', true) ?>"/>
+    <meta name="twitter:image" content="<?= Url::to('@web/images/seo.jpg', true) ?>"/>
 
     <meta property="og:title" content="<?= Html::encode($this->title) ?>"/>
     <meta property="og:description" content="<?= Yii::$app->params['meta-description'] ?>"/>
     <meta property="og:url" content="<?= Yii::$app->request->absoluteUrl ?>"/>
-    <meta property="og:image" content="<?= Url::to('@web/images/rewers.jpg', true) ?>"/>
+    <meta property="og:image" content="<?= Url::to('@web/images/seo.jpg', true) ?>"/>
+    <meta property="og:type" content="website"/>
 
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
