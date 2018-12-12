@@ -26,10 +26,31 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?= Yii::$app->params['meta-description'] ?>" />
     <meta name="keywords" content="<?= Yii::$app->params['meta-keywords'] ?>" />
+    <link rel="manifest" href="<?= Url::to(['/manifest.json']) ?>">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <link rel="canonical" href="<?= Yii::$app->request->absoluteUrl ?>"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="<?= Url::to(['favicon/apple-icon-57x57.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?= Url::to(['favicon/apple-icon-60x60.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?= Url::to(['favicon/apple-icon-72x72.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?= Url::to(['favicon/apple-icon-76x76.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?= Url::to(['favicon/apple-icon-114x114.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?= Url::to(['favicon/apple-icon-120x120.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?= Url::to(['favicon/apple-icon-144x144.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?= Url::to(['favicon/apple-icon-152x152.png'], true) ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= Url::to(['favicon/apple-icon-180x180.png'], true) ?>">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?= Url::to(['favicon/android-icon-192x192.png'], true) ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= Url::to(['favicon/favicon-32x32.png'], true) ?>">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?= Url::to(['favicon/favicon-96x96.png'], true) ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= Url::to(['favicon/favicon-16x16.png'], true) ?>">
+
+    <meta name="msapplication-TileColor" content="#0A0A0A">
+    <meta name="msapplication-TileImage" content="<?= Url::to(['favicon/ms-icon-144x144.png'], true) ?>">
+    <meta name="theme-color" content="#0A0A0A">
 
     <?= Html::csrfMetaTags() ?>
 
@@ -58,7 +79,8 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        //'brandLabel' => Yii::$app->name,
+        'brandLabel' => '<img src="'.Url::to('@web/images/logo.png').'" class="img-responsive logo"/>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => $home ? 'navbar navbar-custom navbar-fixed-top navbar-transparent' : 'navbar navbar-custom navbar-fixed-top',
@@ -119,7 +141,9 @@ AppAsset::register($this);
             <div class="titan-caption">
                 <div class="caption-content">
                     <div class="font-alt mb-10 titan-title-size-1">Witamy na stronie firmy</div>
-                    <div class="font-alt mb-30 titan-title-size-4"><?= Yii::$app->name ?></div>
+                    <div class="font-alt mb-30 titan-title-size-4">
+                        <img src="<?= Url::to('@web/images/logo.png') ?>" alt="logo" class="logo-big img-responsive" title="<?= Yii::$app->name ?>">
+                    </div>
                     <div class="font-alt mb-10 titan-title-size-1">
                         Jesteśmy młodą, dynamicznie rozwijającą się firmą zajmującą się sprzedażą używanych części do samochodów.
                     </div>

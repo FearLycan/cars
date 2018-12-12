@@ -702,7 +702,7 @@ $this->title = Yii::$app->name;
             <div class="row position-relative m-0">
                 <div class="col-xs-12 col-md-6">
                     <?php Pjax::begin(['enablePushState' => false]); ?>
-                    <div class="row finance-image-content" style="padding: 15px 0px;">
+                    <div class="row finance-image-content" style="padding: 26px 0;">
                         <div class="col-md-10 col-md-offset-1">
 
                             <?php if ($success): ?>

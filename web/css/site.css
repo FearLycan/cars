@@ -333,7 +333,30 @@ ul.pagination {
     margin-bottom: 10px;
 }
 
+.logo {
+    height: 40px;
+    position: relative;
+    top: -10px;
+}
+
+.logo-big {
+    height: 135px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) and (min-width: 430px) {
+    .logo-big {
+        height: 90px;
+    }
+}
+
 @media (max-width: 429px) {
+
+    .logo-big {
+        height: 70px;
+    }
+
     .w1-collapse-margin {
         margin-right: auto !important;
     }
@@ -399,4 +422,12 @@ ul.pagination {
 .img > img {
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 15px 10px;
+    }
 }
